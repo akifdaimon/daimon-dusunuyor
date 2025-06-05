@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daimon Düşünüyor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #222;
+      margin: 20px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .figures {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .figure-card {
+      width: 150px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 8px;
+      background: #fff;
+      text-align: center;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+    }
+    .figure-card img {
+      width: 100%;
+      border-radius: 6px;
+      height: 180px;
+      object-fit: cover;
+    }
+    .figure-card p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    article {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Daimon Düşünüyor</h1>
+    <p>Mehmet Akif Demirci’nin kişisel blogu</p>
+  </header>
+
+  <section>
+    <h2>Filozoflar</h2>
+    <div class="figures">
+      <div class="figure-card">
+        <img src="images/sokrates.jpg" alt="Sokrates" />
+        <p>Sokrates</p>
+      </div>
+      <div class="figure-card">
+        <img src="images/kant.jpg" alt="Immanuel Kant" />
+        <p>Immanuel Kant</p>
+      </div>
+      <div class="figure-card">
+        <img src="images/foucault.jpg" alt="Michel Foucault" />
+        <p>Michel Foucault</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sosyologlar</h2>
+    <div class="figures">
+      <div class="figure-card">
+        <img src="images/durkheim.jpg" alt="Emile Durkheim" />
+        <p>Emile Durkheim</p>
+      </div>
+      <div class="figure-card">
+        <img src="images/marx.jpg" alt="Karl Marx" />
+        <p>Karl Marx</p>
+      </div>
+      <div class="figure-card">
+        <img src="images/weber.jpg" alt="Max Weber" />
+        <p>Max Weber</p>
+      </div>
+    </div>
+  </section>
+
+  <article>
+    <h2>Şiir: Kapı Kolu</h2>
+    <pre style="white-space: pre-wrap;"> 
+yürüyordum geçen aklımın odalarında
+
+açmaya korktuğum kapıların gölgesinde
+
+iki büklüm olmamak için zor tuttum kendimi
+
+oysa benim tercihim olmalıydı içindeki hatıra
+
+şimdi anlıyorum 
+
+hiçbir şey ne benim 
+
+ne de bir başkasının tercihi
+
+ya ortak alınmış en berbat tercih
+
+ya da alınamamış tercihlerin varsayımları
+
+...
+
+MEHMET AKİF DEMİRCİ
+    </pre>
+  </article>
+
+  <article>
+    <h2>Şiir: Tekerrür</h2>
+    <pre style="white-space: pre-wrap;">
+dön bak bi 
+
+var söyleyecek üç beş kelimem
+
+ardı arkası gelmeyen durdurmazsan
+
+...
+
+MEHMET AKİF DEMİRCİ
+    </pre>
+  </article>
+
+</body>
+</html>
