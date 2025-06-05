@@ -2,95 +2,114 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daimon Düşünüyor</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background: linear-gradient(to bottom right, #f4f1ee, #d8d2ca);
-      color: #333;
-    }
-    header {
-      background: url('header.jpg') no-repeat center center / cover;
-      text-align: center;
-      padding: 4rem 1rem;
-      color: #fff;
-      text-shadow: 2px 2px 4px #000;
-    }
-    header h1 {
-      font-size: 3rem;
-      margin: 0;
-    }
-    .content {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-    .poem-card {
-      background: #fff;
-      border-left: 6px solid #8c5e58;
-      margin-bottom: 2rem;
-      padding: 1rem 1.5rem;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      position: relative;
-    }
-    .poem-card img {
-      position: absolute;
-      top: -30px;
-      right: -30px;
-      width: 80px;
-      height: auto;
-      opacity: 0.1;
-    }
-    .poem-card h2 {
-      margin-top: 0;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      color: #666;
-      font-size: 0.9rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daimon Düşünüyor</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f0;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #1f1c2c, #928dab);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            height: 100px;
+            top: 20px;
+        }
+        header img.left { left: 20px; }
+        header img.right { right: 20px; }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .section {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            position: relative;
+        }
+        .section img.figure {
+            position: absolute;
+            height: 120px;
+            opacity: 0.1;
+            top: 20px;
+            right: 20px;
+        }
+        h2 {
+            color: #5e548e;
+            font-size: 1.8em;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Georgia', serif;
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eaeaea;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
-  <header>
+
+<header>
+    <img src="nietzsche.png" class="left" alt="Nietzsche">
     <h1>Daimon Düşünüyor</h1>
-    <p>Mehmet Akif Demirci'nin şiir ve deneme blogu</p>
-  </header>
-  <div class="content">
-    <div class="poem-card">
-      <h2>Kapı Kolu</h2>
-      <img src="nietzsche.png" alt="Nietzsche" />
-      <p>
-        yürüyordum geçen aklımın odalarında<br />
-        açmaya korktuğum kapıların gölgesinde<br />
-        iki büklüm olmamak için zor tuttum kendimi<br />
-        oysa benim tercihim olmalıydı içindeki hatıra<br />
-        şimdi anlıyorum <br/>
-        hiçbir şey ne benim <br/>
-        ne de bir başkasının tercihi<br/>
-        ...
-      </p>
-    </div>
-    <div class="poem-card">
-      <h2>Tekerrür</h2>
-      <img src="foucault.png" alt="Foucault" />
-      <p>
-        dön bak bi<br/>
-        var söyleyecek üç beş kelimem<br/>
-        ardı arkası gelmeyen durdurmazsan<br/>
-        bu sefer odağıma aldım tarihi<br/>
-        tarih tekerrür mü eder sürekli <br/>
-        yoksa tekerrür tarihin bir oyuncağı mı<br/>
-        ...
-      </p>
-    </div>
-  </div>
-  <footer>
-    &copy; 2025 Mehmet Akif Demirci - daimon düşünüyor
-  </footer>
+    <img src="foucault.png" class="right" alt="Foucault">
+</header>
+
+<div class="section">
+    <h2>Hakkımda</h2>
+    <pre>Ben Mehmet Akif Demirci, 29 yaşındayım. İzmir'de yaşıyorum. Ege Üniversitesi Sosyoloji bölümünü başarıyla tamamladım. Bu bölüm düşünsel alanda kendimi geliştirmemi sağladı. Küçük yaşlarımdan beri şiir yazmaktayım. Sosyolojik formasyonla beraber bu şiirlerim daha derin anlam ve manalara ulaştı. Bunun haricinde deneme tarzında yazılar da yazmaktayım. Sosyal sporu severim. Gençlerle sohbet etmeye bayılırım.</pre>
+</div>
+
+<div class="section">
+    <h2>Şiir: Kapı Kolu</h2>
+    <img src="socrates.png" class="figure" alt="Kapı Kolu Figürü">
+    <pre>yürüyordum geçen aklımın odalarında
+...
+herkesin kendi tercihleri olduğu kadar
+karşısındaki ve yanındakininde tercihlerinin olduğunu
+
+UNUTMA...
+
+MEHMET AKİF DEMİRCİ</pre>
+</div>
+
+<div class="section">
+    <h2>Şiir: Tekerrür</h2>
+    <img src="marx.png" class="figure" alt="Tekerrür Figürü">
+    <pre>dön bak bi
+
+var söyleyecek üç beş kelimem
+...
+kendini yormamalı...
+
+MEHMET AKİF DEMİRCİ</pre>
+</div>
+
+<footer>
+    İletişim: mehmetakifdemirci@icloud.com | GitHub: akifdaimon
+</footer>
+
 </body>
 </html>
