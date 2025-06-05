@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daimon Düşünüyor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #3a3a72;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        nav {
+            background: #22225b;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #f7c548;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        section {
+            background: #fff;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #3a3a72;
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #22225b;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        .poem {
+            white-space: pre-wrap;
+            font-style: italic;
+            line-height: 1.5;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daimon Düşünüyor</h1>
+    </header>
+    <nav>
+        <a href="#about">Hakkımda</a>
+        <a href="#kapikolu">Kapı Kolu</a>
+        <a href="#tekerrur">Tekerrür</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Hakkımda</h2>
+            <p>Ben Mehmet Akif Demirci, 29 yaşındayım. İzmir'de yaşıyorum. Ege Üniversitesi Sosyoloji bölümünü başarıyla tamamladım. Bu bölüm düşünsel alanda kendimi geliştirmemi sağladı. Küçük yaşlarımdan beri şiir yazmaktayım. Sosyolojik formasyonla beraber bu şiirlerim daha derin anlam ve manalara ulaştı. Bunun haricinde deneme tarzında yazılar da yazmaktayım. Sosyal sporu severim. Gençlerle sohbet etmeye bayılırım.</p>
+        </section>
+        <section id="kapikolu">
+            <h2>Kapı Kolu</h2>
+            <div class="poem">
+yürüyordum geçen aklımın odalarında
+
+açmaya korktuğum kapıların gölgesinde
+
+iki büklüm olmamak için zor tuttum kendimi
+
+oysa benim tercihim olmalıydı içindeki hatıra
+
+şimdi anlıyorum 
+
+hiçbir şey ne benim 
+
+ne de bir başkasının tercihi
+
+ya ortak alınmış en berbat tercih
+
+ya da alınamamış tercihlerin varsayımları
+
+
+
+tozlanmış kapı kolları
+
+örümcek ağı sarmış dört bir yanı
+
+açmalıyım tekrar bu kapıları
+
+ve çözümlemeli içindeki durumları
+
+bir sonraki oluşacak odaya 
+
+eve 
+
+saraya 
+
+yanlış bir çivi dahi çakmamalıyım
+
+doğru açıyla yerleştirmeliyim koltukları
+
+asimetrik olmamalı tablolar
+
+temiz olmalı halılar
+
+ne çok ne az
+
+işlevselliği önplana koymalıyım
+
+dönüp bakmayacağım bir tablo olsun istemem
+
+bol bol bakmalıyım
+
+bol bol bakmalıyız hayatıma girecek olan kişilerle
+
+isterim ki her köşede 
+
+misafirim olan iyi birinden gelen bir vazo 
+
+veyahut sürrealist bir eşya
+
+bu sefer bahçesi olsun
+
+bahçesinin bitişinde kumsal
+
+kumsala uzanan bir koy
+
+en iyisi olmasa da bir bahçe takımı
+
+belki el yapımı
+
+kendimin ölçüp biçtiği
+
+boyayıp renklendirdiğim bir takım
+
+ya da birbirine benzemeyen 
+
+sandalye
+
+şezlong
+
+masa
+
+tabure
+
+benzemesede birbirine bir uyum içinde olan
+
+
+
+tekrar dönüyorum en başa
+
+tozunu kaldırmalı mıyım kapı kollarının
+
+içi pas tuttuysa kapı kollarının
+
+açmaya çalışırken kırılırsa 
+
+o zaman bir pişmanlık hisseder miyim
+
+belki hiç varlığını sorgulamamak gerek bu kapıların
+
+oldu bitti demeliyim
+
+dönüp bir daha ardıma bakmamalıyım
+
+her canım acıdığında en başa dönmemeliyim
+
+çünkü benzer sandığım olay ve olgular 
+
+hep kendi nevi şahsına mühhasır
+
+bu yüzden akıllıca oynamalıyım taşlarımı
+
+gerekirse son ana kadar saklamalıyım kozlarımı
+
+tozlanmasına müsaade etmemeliyim kapı kollarının
+
+ancak hak etmeyenin kapısının bile önünden geçmemeliyim
+
+hak edene ise yaratmalıyım cenneti
+
+bir tanrı misali olmasa dahi
+
+tanrının ruhunu taşıyan bir birey gibi
+
+ama unutmamalıyım 
+
+kesinlikle bilincinde olmalıyım
+
+herkesin kendi tercihleri olduğu kadar
+
+karşısındaki ve yanındakininde tercihlerinin olduğunu
+
+UNUTMA...
+
+
+
+MEHMET AKİF DEMİRCİ
+            </div>
+        </section>
+        <section id="tekerrur">
+            <h2>Tekerrür</h2>
+            <div class="poem">
+dön bak bi 
+
+var söyleyecek üç beş kelimem
+
+ardı arkası gelmeyen durdurmazsan
+
+
+
+bu sefer odağıma aldım tarihi
+
+tarih tekerrür mü eder sürekli 
+
+yoksa tekerrür tarihin bir oyuncağı mı
+
+ya da tarih tekerrürün kaçınılmaz bir noktası
+
+
+
+bir dakika dur
+
+süzgecinden geçir yazılı tarihi
+
+yenileni
+
+içileni
+
+binileni
+
+sığınılan yeri
+
+bireyleri
+
+toplumları
+
+düzene uyum sağlayanları
+
+aykırıları
+
+hükümdarları
+
+çıkar çatışmalarını ve uyuşmalarını
+
+düşün
+
+aklet
+
+baştan sona var bir benzerlik
+
+en çok benzeyen ise 
+
+iyi ve kötü
+
+temelde hepsi aynı
+
+biri iyi 
+
+biri kötü
+
+ikisininde arkasında bitmek bilmeyen saflar
+
+bazen iyi almış dümeni eline 
+
+bazen kötü
+
+ama kime göre iyi ya da kötü
+
+yakın tarihe bak
+
+ya tutsaydı Hitlerin planları
+
+ya da Trikopisin
+
+nereden baksan nafile 
+
+sana kötü bana iyi 
+
+bana kötü sana iyi
+
+nasıl olacak böyle 
+
+senin toprakların verimli 
+
+benimki verimsiz
+
+yönetici olsam kıtlığa maruz bırakmalı mıyım seni
+
+yoksa söz sahibi olduğum toplumun iyiliği için
+
+fethetmeli miyim verimli toprakları
+
+neden bahsedemiyoruz dünya toplumundan
+
+iyi olanın herkese dağıtılmasından
+
+neden bir toplum aşağı görür bir başkasını
+
+seninki can onunsa onun ki sen ne istersen o mu
+
+neden buluşamıyoruz aynı düzlemde
+
+neden ayrıcalık talep ediyoruz 
+
+neden birinin üstünde olmak hoşumuza gidiyor
+
+neden 
+
+neden
+
+neden
+
+işte budur tarih
+
+tamamen tekerür
+
+tamamen aynı
+
+hep aynı
+
+ümitsiz olmamalı
+
+ama farkına varmalı
+
+kendini yormamalı...
+
+
+
+MEHMET AKİF DEMİRCİ
+            </div>
+        </section>
+        <section id="contact">
+            <h2>İletişim</h2>
+            <p>E-posta: <a href="mailto:mehmetakifdemirci@icloud.com">mehmetakifdemirci@icloud.com</a></p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Mehmet Akif Demirci | Daimon Düşünüyor
+    </footer>
+</body>
+</html>
